@@ -8,17 +8,18 @@ Ubuntu precise 32 (12.04 32 bits) running a [RabbitMQ](http://www.rabbitmq.com/)
   
 ## How to use
 
-Clone and run vagrant 
+Clone and run vagrant. First run will install everything
 
 ```bash
-$ git clone https://github.com/gusnips/vagrant-rabbitmq.git # CLONE!
-$ vagrant up # first run will install everything
+$ git clone https://github.com/gusnips/vagrant-rabbitmq.git
+$ vagrant up
 ```
-connect to it (the box IP and ports are hardcoded in Vagrantfile)
+
+connect to it (the box IP and ports are hardcoded in Vagrantfile, change as you wish)
 
 - IP / host: `192.168.56.104`
 - Port to connect: `5672`
 - Username: `guest` (rabbitmq default)
 - Password: `guest` (rabbitmq default)
 
-and have fun!
+Have fun!
